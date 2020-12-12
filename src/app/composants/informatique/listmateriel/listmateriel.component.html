@@ -1,0 +1,15 @@
+<h1 class="text-center pt-3">nos Produit en Informatique</h1>
+<div class="container">
+    <div class="row">
+        <ng-container  *ngFor="let t of materiels ;">
+            <ng-container class="col-4 pt-3" *ngIf="t.quantite > 0">
+                    <siw-materiel [materiel]="t"></siw-materiel>
+            </ng-container>
+        </ng-container>
+    </div>
+</div>
+        
+            
+        
+  
+
